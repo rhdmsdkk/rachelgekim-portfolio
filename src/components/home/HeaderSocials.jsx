@@ -10,6 +10,10 @@ const HeaderSocials = () => {
             <a href="https://github.com/rhdmsdkk" className="home__social-link" target="_blank">
                 <i class="fa-brands fa-github"></i>
             </a>
+
+            <a href="mailto:rachelgekim@gmail.com" className="home__social-link" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
         </div>
     )
 }
