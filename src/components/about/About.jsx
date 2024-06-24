@@ -1,5 +1,6 @@
 import React from 'react';
 import "./about.css";
+import Resume from "../../assets/files/Rachel_Kim_Resume.pdf";
 
 
 const About = () => {
@@ -15,7 +16,7 @@ const About = () => {
                             science at the Georgia Institute of Technology in the Intelligence and 
                             Media threads. I write my code with a focus on clarity and readability. 
                             And in my free time, I love making art and video games!</p>
-                        <a href="" className="btn">Download Resume</a>
+                        <a href={Resume} download="Rachel_Kim_Resume" target="_blank" rel="noreferrer" className="btn">Download Resume</a>
                     </div>
 
                     <div className="about__skill grid">

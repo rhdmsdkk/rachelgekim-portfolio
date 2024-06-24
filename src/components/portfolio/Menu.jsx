@@ -1,23 +1,25 @@
-import Work1 from "../../assets/work-1.svg";
-import Work2 from "../../assets/work-2.svg";
-import Work3 from "../../assets/work-3.svg";
+import Work1 from "../../assets/shoot_thumb.png";
+import Work2 from "../../assets/gp_thumb.png";
+import Work3 from "../../assets/toy_thumb.png";
 
 const Menu = [
     {
         id: 1,
         image: Work1,
         title: "2D Shooter",
-        category: "Games"
+        category: "Games",
+        link: "https://github.com/rhdmsdkk/shoot-game.git"
     },
     {
         id: 2,
-        image: Work3,
+        image: Work2,
         title: "GreenPlate",
-        category: "School"
+        category: "School",
+        link: "https://github.com/jeffreycjj6/CS2340A_Team7.git"
     },
     {
         id: 3,
-        image: Work2,
+        image: Work3,
         title: "Toy Game",
         category: "Games"
     }
