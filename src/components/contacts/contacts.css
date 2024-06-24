@@ -1,0 +1,11 @@
+.contacts__container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.875rem;
+}
+
+.contacts__item {
+    font-size: var(--small-font-size);
+}

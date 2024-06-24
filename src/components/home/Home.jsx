@@ -14,7 +14,7 @@ const Home = () => {
 
                 <HeaderSocials />
 
-                <a href="#contact" className="btn">Contact Me</a>
+                <a href="https://github.com/rhdmsdkk/rachelgekim-portfolio.git" target="_blank" rel="noreferrer" className="btn">Site Repository</a>
 
                 <ScrollDown />
             </div>

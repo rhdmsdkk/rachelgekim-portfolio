@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 import Sidebar from './components/sidebar/Sidebar';
@@ -6,7 +5,7 @@ import Home from './components/home/Home';
 import About from './components/about/About';
 import Resume from './components/resume/Resume';
 import Portfolio from './components/portfolio/Portfolio';
-import Contact from './components/contact/Contact';
+import Contacts from './components/contacts/Contacts';
 
 function App() {
   return (
@@ -17,7 +16,7 @@ function App() {
         <About />
         <Resume />
         <Portfolio />
-        <Contact />
+        <Contacts />
       </main>
     </>
   );
