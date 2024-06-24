@@ -29,7 +29,7 @@ const Data = [
         id: 4,
         category: "projects",
         icon: "icon-layers",
-        year: "Jun 2024 - present",
+        year: "Jun 2024 - Present",
         title: "2D Shooter Game",
         desc: "2D platformer game with shooting mechanics. Built in Unity with hand-drawn assets"
     }
