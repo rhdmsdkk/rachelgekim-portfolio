@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rachelgekim-portfolio/static/css/main.17283723.css",
-    "main.js": "/rachelgekim-portfolio/static/js/main.b7217832.js",
+    "main.css": "/rachelgekim-portfolio/static/css/main.4001ece4.css",
+    "main.js": "/rachelgekim-portfolio/static/js/main.8018ecc8.js",
     "static/js/453.16c6648f.chunk.js": "/rachelgekim-portfolio/static/js/453.16c6648f.chunk.js",
     "static/media/shoot_thumb.png": "/rachelgekim-portfolio/static/media/shoot_thumb.bc3ef1c3d331553e46cb.png",
     "static/media/profile_thing.svg": "/rachelgekim-portfolio/static/media/profile_thing.dc4f050e4438336dff717176448f56a8.svg",
@@ -9,13 +9,14 @@
     "static/media/Rachel_Kim_Resume.pdf": "/rachelgekim-portfolio/static/media/Rachel_Kim_Resume.ad4a69620cc16752e354.pdf",
     "static/media/toy_thumb.png": "/rachelgekim-portfolio/static/media/toy_thumb.bc51e90aab8d6a073dee.png",
     "static/media/gp_thumb.png": "/rachelgekim-portfolio/static/media/gp_thumb.a6c36f08f735b6095d13.png",
+    "static/media/dots-bg.svg": "/rachelgekim-portfolio/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
     "index.html": "/rachelgekim-portfolio/index.html",
-    "main.17283723.css.map": "/rachelgekim-portfolio/static/css/main.17283723.css.map",
-    "main.b7217832.js.map": "/rachelgekim-portfolio/static/js/main.b7217832.js.map",
+    "main.4001ece4.css.map": "/rachelgekim-portfolio/static/css/main.4001ece4.css.map",
+    "main.8018ecc8.js.map": "/rachelgekim-portfolio/static/js/main.8018ecc8.js.map",
     "453.16c6648f.chunk.js.map": "/rachelgekim-portfolio/static/js/453.16c6648f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17283723.css",
-    "static/js/main.b7217832.js"
+    "static/css/main.4001ece4.css",
+    "static/js/main.8018ecc8.js"
   ]
 }
