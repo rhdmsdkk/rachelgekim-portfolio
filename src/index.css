@@ -122,6 +122,7 @@ img {
 
 .section__title::before {
   content: '';
+  background: url(./assets/dots-bg.svg);
   height: 2.25rem;
   width: 2.25rem;
   position: absolute;
