@@ -12,10 +12,10 @@ const Data = [
         id: 2,
         category: "experience",
         icon: "icon-briefcase",
-        year: "Jun 2024 - Present",
+        year: "Jun 2024 - Jul 2024",
         title: "Advanced Coder",
         company: "Outlier",
-        desc: "Train large language models to code in Java, Python, and C by writing and evaluating code"
+        desc: "Trained large language models to code in Java, Python, and C by writing and evaluating code"
     }, 
     {
         id: 3,
@@ -29,9 +29,9 @@ const Data = [
         id: 4,
         category: "projects",
         icon: "icon-layers",
-        year: "Jun 2024 - Present",
-        title: "2D Shooter Game",
-        desc: "2D platformer game with shooting mechanics. Built in Unity with hand-drawn assets"
+        year: "Jun 2024 - Jul 2024",
+        title: "Shooty Girl",
+        desc: "2D platformer game with shooting mechanics. Built in Unity with assets drawn by me"
     }
 ]
 
