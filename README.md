@@ -1,3 +1,3 @@
-# This portfolio is still under construction!
+# Thanks for visiting =)
 
 Live site: https://rhdmsdkk.github.io/rachelgekim-portfolio/
