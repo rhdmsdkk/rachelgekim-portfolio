@@ -44,7 +44,7 @@
 
 .timeline__date,
 .timeline__company {
-    color: #8b88b1;
+    color: hsl(28, 13%, 44%);
     font-size: var(--small-font-size);
 }
 

@@ -56,17 +56,17 @@
 
 .top {
     width: 100%;
-    background-color: rgb(255, 209, 92);
+    background-color: rgb(255, 168, 76);
 }
 
 .mid {
     width: 90%;
-    background-color: rgb(255, 76, 96);
+    background-color: rgb(77, 214, 148);
 }
 
 .bot {
     width: 70%;
-    background-color: rgb(108, 108, 299);
+    background-color: rgb(255, 209, 92);
 }
 
 .btn {
