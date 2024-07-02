@@ -8,7 +8,7 @@ const Menu = [
         image: Work1,
         title: "Shooty Girl",
         category: "Games",
-        link: "https://rhdmsdkk.github.io/shooty-girl-web"
+        link: "https://rhdmsdkk.github.io/shooty-girl-play"
     },
     {
         id: 2,
