@@ -1,3 +1,7 @@
+.section {
+    padding-top: 1rem;
+}
+
 .contacts__container {
     display: flex;
     align-content: center;
@@ -8,4 +12,17 @@
 
 .contacts__item {
     font-size: var(--small-font-size);
+}
+
+
+@media screen and (max-width: 768px) {
+    .section {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .contacts__item {
+        font-size: 0.6rem;
+    }
 }
