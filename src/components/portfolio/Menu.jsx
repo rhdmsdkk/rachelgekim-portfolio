@@ -6,9 +6,9 @@ const Menu = [
     {
         id: 1,
         image: Work1,
-        title: "2D Shooter",
+        title: "Shooty Girl",
         category: "Games",
-        link: "https://github.com/rhdmsdkk/shoot-game.git"
+        link: "https://rhdmsdkk.github.io/shooty-girl-web"
     },
     {
         id: 2,
