@@ -13,6 +13,7 @@
 
   --background-primary: #0a0a0a;
   --color-white: #fff;
+  --color-yellow: #ff9e0c;
 
   /* Font & Typography */
   --body-font: "Rubik", sans-serif;
@@ -24,10 +25,15 @@
   --smaller-font-size: 0.813rem;
 
   --font-primary: "Raleway", "Rubik", sans-serif;
+  --small-font: 20px;
+  --medium-font: 32px;
   --large-font: 36px;
   --title-font: 96px;
+  --heading-font: 64px;
+  --desc-font: 24px;
 
   /* Font Weight */
+  --font-thin: 300;
   --font-medium: 500;
   --font-semibold: 600;
   --font-bold: 700;
