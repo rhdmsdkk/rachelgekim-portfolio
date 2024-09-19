@@ -1,25 +1,20 @@
-import React from 'react';
+import React from "react";
+import ThingMain from "../../assets/thing_main.svg";
 import "./home.css";
-import Me from "../../assets/profile_thing.svg";
-import HeaderSocials from './HeaderSocials';
-import ScrollDown from './ScrollDown';
 
 const Home = () => {
-    return (
-        <section className="home container" id="home">
-            <div className="intro">
-                <img src={Me} alt="" className="homeImg" />
-                <h1 className="home__name">Rachel Kim</h1>
-                <span className="home__education">CS Student @ Georgia Tech</span>
-
-                <HeaderSocials />
-
-                <a href="https://github.com/rhdmsdkk/rachelgekim-portfolio.git" target="_blank" rel="noreferrer" className="btn">Site Repository</a>
-
-                <ScrollDown />
-            </div>
-        </section>
-    )
-}
+  return (
+    <div className="home">
+      <div className="home__container">
+        <img src={ThingMain} alt="Thing Main" />
+      </div>
+      <div className="home__description">
+        <h2 className="home__header">Hi, I'm</h2>
+        <h1 className="home__title">Rachel Kim</h1>
+        <div className="home__divider" />
+      </div>
+    </div>
+  );
+};
 
 export default Home;
