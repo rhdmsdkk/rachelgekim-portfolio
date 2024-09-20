@@ -6,7 +6,8 @@ const PortfolioItem = (props) => {
     <div className="portfolio__item">
       <div
         className="portfolio__item__top"
-        style={{ backgroundColor: props.colorTop }}
+        style={{ backgroundColor: props.colorTop, cursor: "pointer" }}
+        onClick={props.onClick}
       >
         <img
           className="portfolio__item__image"

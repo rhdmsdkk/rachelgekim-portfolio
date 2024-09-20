@@ -57,7 +57,7 @@ const Contact = () => {
             rel="noreferrer"
             className="contact__btn"
           >
-            Download Resume
+            Resume
           </a>
         </div>
       </div>
