@@ -43,3 +43,27 @@
   align-items: center;
   flex-grow: 1;
 }
+
+@media screen and (max-width: 896px) {
+  .shooty__content {
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 35px;
+  }
+
+  .shooty__demo_container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .shooty__desc_container {
+    width: 100%;
+    row-gap: 10px;
+  }
+}
+
+@media screen and (max-width: 596px) {
+  .shooty__demo {
+    width: 100%;
+  }
+}

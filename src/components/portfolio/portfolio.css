@@ -117,11 +117,17 @@
 
 @media screen and (max-width: 596px) {
   .item_popup {
+    height: 65%;
     padding: 3% 14%;
   }
 
   .close_btn {
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .link_btn {
+    width: 30px;
+    height: 30px;
   }
 }
