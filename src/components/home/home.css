@@ -18,6 +18,10 @@
   width: 50%;
 }
 
+.home__image {
+  max-width: 70%;
+}
+
 .home__description_container {
   display: flex;
   flex-direction: column;
@@ -66,4 +70,43 @@
   position: absolute;
   bottom: 5vh;
   animation: hoverUpDown 2s ease-in-out infinite;
+}
+
+.home__description__sm {
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 23vh;
+}
+
+@media screen and (max-width: 896px) {
+  .home {
+    flex-direction: column;
+    row-gap: 5vh;
+  }
+
+  .home__image_container {
+    width: 90%;
+    text-align: center;
+  }
+
+  .home__image {
+    max-width: 45%;
+  }
+
+  .home__description_container {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+
+  .home__description__lg {
+    visibility: hidden;
+  }
+
+  .home__description__sm {
+    visibility: visible;
+  }
 }

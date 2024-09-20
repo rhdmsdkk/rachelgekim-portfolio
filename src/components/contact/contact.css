@@ -25,6 +25,8 @@
   font-size: var(--heading-font);
   text-align: center;
   padding-top: 15vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 .contact__footer {
@@ -88,7 +90,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 225px;
+  padding: 0px 28px;
   height: 60px;
   background-color: var(--color-yellow);
   color: var(--color-white);
@@ -96,4 +98,29 @@
   transition: transform 0.3s ease;
   border-radius: 15px;
   border: 3px solid var(--color-white);
+}
+
+@media screen and (max-width: 596px) {
+  .contact__content {
+    flex-direction: column;
+    row-gap: 5vh;
+  }
+
+  .contact__image {
+    max-height: 45%;
+  }
+
+  .contact__info {
+    row-gap: 18px;
+    align-items: center;
+  }
+
+  .contact__info__icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .contact__btn {
+    height: 50px;
+  }
 }

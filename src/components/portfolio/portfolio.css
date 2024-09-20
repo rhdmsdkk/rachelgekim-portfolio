@@ -87,3 +87,9 @@
   left: 25px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1200px) {
+  .portfolio {
+    padding: 10vh 2vw;
+  }
+}

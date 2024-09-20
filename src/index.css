@@ -58,6 +58,39 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  :root {
+    --small-font: 16px;
+    --medium-font: 24px;
+    --large-font: 28px;
+    --title-font: 72px;
+    --heading-font: 48px;
+    --desc-font: 18px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  :root {
+    --small-font: 16px;
+    --medium-font: 22px;
+    --large-font: 24px;
+    --title-font: 64px;
+    --heading-font: 40px;
+    --desc-font: 18px;
+  }
+}
+
+@media screen and (max-width: 596px) {
+  :root {
+    --small-font: 14px;
+    --medium-font: 22px;
+    --large-font: 20px;
+    --title-font: 64px;
+    --heading-font: 32px;
+    --desc-font: 18px;
+  }
+}
+
 /* Base */
 * {
   margin: 0;
