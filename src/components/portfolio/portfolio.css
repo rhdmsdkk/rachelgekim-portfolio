@@ -116,6 +116,38 @@
 }
 
 @media screen and (max-width: 596px) {
+  .portfolio {
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .portfolio__item {
+    width: 320px;
+    height: 200px;
+    position: relative;
+  }
+
+  .portfolio__item__top {
+    width: 320px;
+    height: 200px;
+  }
+
+  .portfolio__item__image {
+    width: 300px;
+    height: 185px;
+  }
+
+  .portfolio__item__mid {
+    width: 320px;
+    height: 200px;
+  }
+
+  .portfolio__item__bot {
+    width: 320px;
+    height: 200px;
+  }
+
   .item_popup {
     height: 65%;
     padding: 3% 14%;
@@ -129,5 +161,7 @@
   .link_btn {
     width: 30px;
     height: 30px;
+    top: 20px;
+    right: 18px;
   }
 }

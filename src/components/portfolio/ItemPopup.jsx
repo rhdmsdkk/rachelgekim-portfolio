@@ -4,6 +4,7 @@ import LinkIcon from "../../assets/icons/link.svg";
 import "./portfolio.css";
 import ShootyPopup from "./portfolio popups/ShootyPopup";
 import AltarunePopup from "./portfolio popups/AltarunePopup";
+import PopsignPopup from "./portfolio popups/PopsignPopup";
 
 const ItemPopup = (props) => {
   const popupContent = (project) => {
@@ -12,6 +13,8 @@ const ItemPopup = (props) => {
         return <ShootyPopup />;
       case "altarune":
         return <AltarunePopup />;
+      case "popsign":
+        return <PopsignPopup />;
       default:
         return <></>;
     }

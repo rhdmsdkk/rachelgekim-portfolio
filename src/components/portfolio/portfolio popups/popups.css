@@ -19,6 +19,13 @@
   color: var(--color-white);
 }
 
+.popup__link {
+  color: var(--color-yellow);
+  text-decoration: underline;
+}
+
+/* Shooty Girl */
+
 .shooty__desc_container {
   display: flex;
   flex-direction: column;
@@ -44,6 +51,39 @@
   flex-grow: 1;
 }
 
+/* PopSign */
+
+.popsign__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.popsign__desc_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding-top: 5vh;
+  row-gap: 20px;
+}
+
+.popsign__demo {
+  width: 560px;
+  height: 315px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1400px) {
+  .popsign__demo {
+    width: 400px;
+    height: 225px;
+  }
+}
+
 @media screen and (max-width: 896px) {
   .shooty__content {
     flex-direction: column;
@@ -59,6 +99,11 @@
   .shooty__desc_container {
     width: 100%;
     row-gap: 10px;
+  }
+
+  .popsign__demo {
+    width: 320px;
+    height: 180px;
   }
 }
 
