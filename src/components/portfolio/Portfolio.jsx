@@ -9,7 +9,8 @@ import "./portfolio.css";
 import ItemPopup from "./ItemPopup";
 
 const Portfolio = () => {
-  const [currPopup, setCurrPopup] = useState("");
+  const [currProject, setcurrProject] = useState("");
+  const [currLink, setCurrLink] = useState("");
 
   return (
     <section className="portfolio" id="portfolio">
@@ -18,9 +19,10 @@ const Portfolio = () => {
         colorMid="#859B58"
         colorBot="#DAFFFF"
         imgsrc={AltaruneThumbnail}
-        imgalt="PopSign thumbnail"
+        imgalt="Altarune thumbnail"
         onClick={() => {
-          setCurrPopup("altarune");
+          setcurrProject("altarune");
+          setCurrLink("https://github.com/rhdmsdkk/Rachel-Altarune");
         }}
       />
       <PortfolioItem
@@ -30,7 +32,8 @@ const Portfolio = () => {
         imgsrc={PopSignThumbnail}
         imgalt="PopSign thumbnail"
         onClick={() => {
-          setCurrPopup("popsign");
+          setcurrProject("popsign");
+          setCurrLink("https://www.popsign.org/");
         }}
       />
       <PortfolioItem
@@ -40,7 +43,8 @@ const Portfolio = () => {
         imgsrc={ShootyGirlThumbnail}
         imgalt="Shooty Girl thumbnail"
         onClick={() => {
-          setCurrPopup("shooty");
+          setcurrProject("shooty");
+          setCurrLink("https://rhdmsdkk.github.io/shooty-girl-play/");
         }}
       />
       <PortfolioItem
@@ -50,7 +54,8 @@ const Portfolio = () => {
         imgsrc={ActionThumbnail}
         imgalt="Action game thumbnail"
         onClick={() => {
-          setCurrPopup("action");
+          setcurrProject("action");
+          setCurrLink("https://github.com/rhdmsdkk/combat-game");
         }}
       />
       <PortfolioItem
@@ -60,25 +65,19 @@ const Portfolio = () => {
         imgsrc={GreenPlateThumbnail}
         imgalt="GreenPlate thumbnail"
         onClick={() => {
-          setCurrPopup("greenplate");
+          setcurrProject("greenplate");
+          setCurrLink("https://github.com/jeffreycjj6/GreenPlate");
         }}
       />
-      {currPopup && (
+      {currProject && (
         <ItemPopup
           close={() => {
-            setCurrPopup("");
+            setcurrProject("");
+            setCurrLink("");
           }}
-        >
-          <div
-            style={{
-              backgroundColor: "#ffffff",
-              width: "100%",
-              height: "100%",
-            }}
-          >
-            hello
-          </div>
-        </ItemPopup>
+          project={currProject}
+          link={currLink}
+        />
       )}
     </section>
   );

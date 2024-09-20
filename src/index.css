@@ -31,6 +31,7 @@
   --large-font: 34px;
   --title-font: 96px;
   --heading-font: 64px;
+  --larger-font: 54px;
   --desc-font: 24px;
 
   /* Font Weight */
@@ -65,6 +66,7 @@
     --large-font: 28px;
     --title-font: 72px;
     --heading-font: 48px;
+    --larger-font: 54px;
     --desc-font: 18px;
   }
 }
@@ -76,6 +78,7 @@
     --large-font: 24px;
     --title-font: 64px;
     --heading-font: 40px;
+    --larger-font: 48px;
     --desc-font: 18px;
   }
 }
@@ -87,6 +90,7 @@
     --large-font: 20px;
     --title-font: 64px;
     --heading-font: 32px;
+    --larger-font: 42px;
     --desc-font: 18px;
   }
 }
