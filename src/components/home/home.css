@@ -109,4 +109,8 @@
   .home__description__sm {
     visibility: visible;
   }
+
+  .home__down_icon {
+    bottom: 2vh;
+  }
 }

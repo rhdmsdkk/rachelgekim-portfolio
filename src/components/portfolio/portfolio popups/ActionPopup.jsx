@@ -23,6 +23,7 @@ const ActionPopup = () => {
             controls={false}
             loop
             disablePictureInPicture
+            playsInline
           ></video>
         </div>
       </div>

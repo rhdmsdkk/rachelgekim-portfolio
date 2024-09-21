@@ -28,6 +28,7 @@ const ShootyPopup = () => {
             controls={false}
             loop
             disablePictureInPicture
+            playsInline
           ></video>
         </div>
       </div>
