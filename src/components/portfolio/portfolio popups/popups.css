@@ -146,7 +146,41 @@
   width: 80%;
 }
 
+/* GreenPlate */
+
+.greenplate__content {
+  padding-top: 5vh;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  height: 90%;
+}
+
+.greenplate__desc {
+  display: flex;
+  align-items: center;
+}
+
+.greenplate__image_container {
+  display: flex;
+  align-items: center;
+  max-width: 25%;
+}
+
+.greenplate__images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 /* Responsive */
+
+@media screen and (max-width: 1200px) {
+  .greenplate__content {
+    width: 110%;
+    overflow-x: hidden;
+  }
+}
 
 @media screen and (max-width: 896px) {
   .shooty__content {
@@ -184,6 +218,10 @@
   .altarune__shinobi_demo {
     width: 90%;
   }
+  .greenplate__content {
+    width: 125%;
+    overflow-x: hidden;
+  }
 }
 
 @media screen and (max-width: 596px) {
@@ -209,5 +247,24 @@
   .popsign__demo {
     width: 320px;
     height: 180px;
+  }
+
+  .greenplate__content {
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 30px;
+    padding-top: 3vh;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .greenplate__content::-webkit-scrollbar {
+    display: none;
+  }
+
+  .greenplate__image_container {
+    max-width: 40%;
   }
 }
