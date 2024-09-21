@@ -6,6 +6,7 @@ import ShootyPopup from "./portfolio popups/ShootyPopup";
 import AltarunePopup from "./portfolio popups/AltarunePopup";
 import PopsignPopup from "./portfolio popups/PopsignPopup";
 import GreenplatePopup from "./portfolio popups/GreenplatePopup";
+import ActionPopup from "./portfolio popups/ActionPopup";
 
 const ItemPopup = (props) => {
   const popupContent = (project) => {
@@ -18,6 +19,8 @@ const ItemPopup = (props) => {
         return <PopsignPopup />;
       case "greenplate":
         return <GreenplatePopup />;
+      case "action":
+        return <ActionPopup />;
       default:
         return <></>;
     }

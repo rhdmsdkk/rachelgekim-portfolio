@@ -2,6 +2,7 @@ import React from "react";
 import Greenplate1 from "../../../assets/greenplate-image-1.png";
 import Greenplate2 from "../../../assets/greenplate-image-2.png";
 import { useEffect, useState } from "react";
+import "./popups.css";
 
 const GreenplatePopup = () => {
   const [width, setWidth] = useState(window.innerWidth);

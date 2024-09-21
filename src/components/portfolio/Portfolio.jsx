@@ -48,17 +48,6 @@ const Portfolio = () => {
         }}
       />
       <PortfolioItem
-        colorTop="#EB9F46"
-        colorMid="#2C2E30"
-        colorBot="#FAFAF7"
-        imgsrc={ActionThumbnail}
-        imgalt="Action game thumbnail"
-        onClick={() => {
-          setcurrProject("action");
-          setCurrLink("https://github.com/rhdmsdkk/combat-game");
-        }}
-      />
-      <PortfolioItem
         colorTop="#74C178"
         colorMid="#45813D"
         colorBot="#FFFFFF"
@@ -67,6 +56,17 @@ const Portfolio = () => {
         onClick={() => {
           setcurrProject("greenplate");
           setCurrLink("https://github.com/jeffreycjj6/GreenPlate");
+        }}
+      />
+      <PortfolioItem
+        colorTop="#EB9F46"
+        colorMid="#2C2E30"
+        colorBot="#FAFAF7"
+        imgsrc={ActionThumbnail}
+        imgalt="Action game thumbnail"
+        onClick={() => {
+          setcurrProject("action");
+          setCurrLink("https://github.com/rhdmsdkk/combat-game");
         }}
       />
       {currProject && (
