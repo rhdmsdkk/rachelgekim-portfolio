@@ -23,6 +23,7 @@ const Portfolio = () => {
         onClick={() => {
           setcurrProject("altarune");
           setCurrLink("https://github.com/rhdmsdkk/Rachel-Altarune");
+          document.body.style.overflow = "hidden";
         }}
       />
       <PortfolioItem
@@ -34,6 +35,7 @@ const Portfolio = () => {
         onClick={() => {
           setcurrProject("popsign");
           setCurrLink("https://www.popsign.org/");
+          document.body.style.overflow = "hidden";
         }}
       />
       <PortfolioItem
@@ -45,6 +47,7 @@ const Portfolio = () => {
         onClick={() => {
           setcurrProject("shooty");
           setCurrLink("https://rhdmsdkk.github.io/shooty-girl-play/");
+          document.body.style.overflow = "hidden";
         }}
       />
       <PortfolioItem
@@ -56,6 +59,7 @@ const Portfolio = () => {
         onClick={() => {
           setcurrProject("greenplate");
           setCurrLink("https://github.com/jeffreycjj6/GreenPlate");
+          document.body.style.overflow = "hidden";
         }}
       />
       <PortfolioItem
@@ -67,6 +71,7 @@ const Portfolio = () => {
         onClick={() => {
           setcurrProject("action");
           setCurrLink("https://github.com/rhdmsdkk/combat-game");
+          document.body.style.overflow = "hidden";
         }}
       />
       {currProject && (
@@ -74,6 +79,7 @@ const Portfolio = () => {
           close={() => {
             setcurrProject("");
             setCurrLink("");
+            document.body.style.overflow = "";
           }}
           project={currProject}
           link={currLink}
