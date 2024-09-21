@@ -1,3 +1,3 @@
-# Thanks for visiting =)
+# thanks for visiting =)
 
-Live site: https://rhdmsdkk.github.io/rachelgekim-portfolio/
+link to site: https://rhdmsdkk.github.io/rachelgekim-portfolio/
