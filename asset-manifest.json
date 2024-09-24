@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rachelgekim-portfolio/static/css/main.8e4124eb.css",
-    "main.js": "/rachelgekim-portfolio/static/js/main.910055b2.js",
+    "main.js": "/rachelgekim-portfolio/static/js/main.8abdd24b.js",
     "static/js/453.16c6648f.chunk.js": "/rachelgekim-portfolio/static/js/453.16c6648f.chunk.js",
     "static/media/demo_shooty.gif": "/rachelgekim-portfolio/static/media/demo_shooty.0dca71938279e96f606e.gif",
     "static/media/demo_combat.gif": "/rachelgekim-portfolio/static/media/demo_combat.f5ca9415ea5063cdec08.gif",
@@ -26,11 +26,11 @@
     "static/media/close.svg": "/rachelgekim-portfolio/static/media/close.0660bc97d243ce0879f84b05fb338732.svg",
     "static/media/chevron.svg": "/rachelgekim-portfolio/static/media/chevron.5044a4b12ec5e31595bfc1d2085207ba.svg",
     "main.8e4124eb.css.map": "/rachelgekim-portfolio/static/css/main.8e4124eb.css.map",
-    "main.910055b2.js.map": "/rachelgekim-portfolio/static/js/main.910055b2.js.map",
+    "main.8abdd24b.js.map": "/rachelgekim-portfolio/static/js/main.8abdd24b.js.map",
     "453.16c6648f.chunk.js.map": "/rachelgekim-portfolio/static/js/453.16c6648f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8e4124eb.css",
-    "static/js/main.910055b2.js"
+    "static/js/main.8abdd24b.js"
   ]
 }
