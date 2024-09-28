@@ -27,13 +27,13 @@
   --smaller-font-size: 0.813rem;
 
   --font-primary: "Raleway", "Rubik", sans-serif;
-  --small-font: 20px;
-  --medium-font: 32px;
-  --large-font: 34px;
-  --title-font: 96px;
-  --heading-font: 64px;
-  --larger-font: 54px;
-  --desc-font: 24px;
+  --small-font: 16px;
+  --medium-font: 22px;
+  --large-font: 24px;
+  --title-font: 80px;
+  --heading-font: 56px;
+  --larger-font: 42px;
+  --desc-font: 20px;
 
   /* Font Weight */
   --font-thin: 300;
@@ -64,10 +64,10 @@
   :root {
     --small-font: 16px;
     --medium-font: 24px;
-    --large-font: 28px;
-    --title-font: 72px;
+    --large-font: 26px;
+    --title-font: 64px;
     --heading-font: 48px;
-    --larger-font: 54px;
+    --larger-font: 42px;
     --desc-font: 18px;
   }
 }
@@ -77,9 +77,9 @@
     --small-font: 16px;
     --medium-font: 22px;
     --large-font: 24px;
-    --title-font: 64px;
+    --title-font: 48px;
     --heading-font: 40px;
-    --larger-font: 48px;
+    --larger-font: 38px;
     --desc-font: 18px;
   }
 }
@@ -89,10 +89,10 @@
     --small-font: 14px;
     --medium-font: 22px;
     --large-font: 20px;
-    --title-font: 64px;
+    --title-font: 40px;
     --heading-font: 32px;
-    --larger-font: 42px;
-    --desc-font: 15px;
+    --larger-font: 36px;
+    --desc-font: 14px;
   }
 }
 

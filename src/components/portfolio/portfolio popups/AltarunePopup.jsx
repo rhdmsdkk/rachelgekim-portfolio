@@ -34,8 +34,9 @@ const AltarunePopup = () => {
         <div className="altarune__shinobi">
           <div className="altarune__shinobi_desc">
             <p className="popup__desc">
-              My major contribution is the behavior for the shinobi enemy. It
-              carries out one of two possible attacks when the player is near.
+              My major contribution is the behavior for the &quot;slither
+              golem&quot; enemy. It carries out one of two possible attacks when
+              the player is near.
             </p>
             <p className="popup__desc">
               The enemy logic was implemented with a state machine.
@@ -45,12 +46,12 @@ const AltarunePopup = () => {
             <img
               className="shinobi_demo"
               src={ShinobiZigDemo}
-              alt="shinobi zigzag attack demo"
+              alt="slither golem zigzag attack demo"
             />
             <img
               className="shinobi_demo"
               src={ShinobiSweepDemo}
-              alt="shinobi sweep attack demo"
+              alt="slither golem sweep attack demo"
             />
           </div>
         </div>

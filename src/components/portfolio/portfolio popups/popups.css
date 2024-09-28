@@ -51,13 +51,6 @@
   align-items: center;
   flex-grow: 1;
   overflow-y: auto;
-
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-.popsign__content::-webkit-scrollbar {
-  display: none;
 }
 
 /* PopSign */
@@ -74,13 +67,6 @@
   width: 100%;
   overflow-y: auto;
   row-gap: 50px;
-
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-.popsign__content::-webkit-scrollbar {
-  display: none;
 }
 
 .popsign__demo {
@@ -99,13 +85,6 @@
   width: 100%;
   overflow-y: auto;
   row-gap: 50px;
-
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-.altarune__content::-webkit-scrollbar {
-  display: none;
 }
 
 .altarune__demo {
@@ -209,13 +188,36 @@
   padding-top: 3vh;
   flex-grow: 1;
   overflow-y: auto;
-
-  scrollbar-width: none;
-  -ms-overflow-style: none;
 }
 
-.action__content::-webkit-scrollbar {
-  display: none;
+/* Scrolls */
+
+.altarune__content::-webkit-scrollbar,
+.popsign__content::-webkit-scrollbar,
+.action__content::-webkit-scrollbar,
+.shooty__content::-webkit-scrollbar {
+  width: 10px;
+}
+
+.altarune__content::-webkit-scrollbar-track,
+.popsign__content::-webkit-scrollbar-track,
+.action__content::-webkit-scrollbar-track,
+.shooty__content::-webkit-scrollbar-track {
+  background: none;
+}
+
+.altarune__content::-webkit-scrollbar-thumb,
+.popsign__content::-webkit-scrollbar-thumb,
+.action__content::-webkit-scrollbar-thumb,
+.shooty__content::-webkit-scrollbar-thumb {
+  background: #f1f1f1;
+}
+
+.altarune__content::-webkit-scrollbar-thumb:hover,
+.popsign__content::-webkit-scrollbar-thumb:hover,
+.action__content::-webkit-scrollbar-thumb:hover,
+.shooty__content::-webkit-scrollbar-thumb:hover {
+  background: #888;
 }
 
 /* Responsive */
@@ -331,13 +333,22 @@
     align-items: center;
     row-gap: 30px;
     padding-top: 3vh;
-
-    scrollbar-width: none;
-    -ms-overflow-style: none;
   }
 
   .greenplate__content::-webkit-scrollbar {
-    display: none;
+    width: 10px;
+  }
+
+  .greenplate__content::-webkit-scrollbar-track {
+    background: none;
+  }
+
+  .greenplate__content::-webkit-scrollbar-thumb {
+    background: #f1f1f1;
+  }
+
+  .greenplate__content::-webkit-scrollbar-thumb:hover {
+    background: #888;
   }
 
   .greenplate__image_container {

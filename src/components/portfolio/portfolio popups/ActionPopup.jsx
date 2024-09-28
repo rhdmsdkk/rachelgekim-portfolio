@@ -1,6 +1,6 @@
 import React from "react";
 import "./popups.css";
-import CombatDemo from "../../../assets/videos/demo_combat.mp4";
+import CombatDemo from "../../../assets/videos/demo_combat.gif";
 
 const ActionPopup = () => {
   return (
@@ -16,15 +16,11 @@ const ActionPopup = () => {
           </p>
         </div>
         <div className="action__demo_container">
-          <video
+          <img
             className="action__demo"
             src={CombatDemo}
-            autoPlay
-            controls={false}
-            loop
-            disablePictureInPicture
-            playsInline
-          ></video>
+            alt="combat game demo"
+          />
         </div>
       </div>
     </div>

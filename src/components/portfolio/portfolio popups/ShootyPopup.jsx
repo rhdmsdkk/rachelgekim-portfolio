@@ -1,6 +1,6 @@
 import "./popups.css";
 import React from "react";
-import ShootyDemo from "../../../assets/videos/demo_shooty.mp4";
+import ShootyDemo from "../../../assets/videos/demo_shooty.gif";
 
 const ShootyPopup = () => {
   return (
@@ -21,15 +21,11 @@ const ShootyPopup = () => {
           </p>
         </div>
         <div className="shooty__demo_container">
-          <video
+          <img
             className="shooty__demo"
             src={ShootyDemo}
-            autoPlay
-            controls={false}
-            loop
-            disablePictureInPicture
-            playsInline
-          ></video>
+            alt="shooty girl demo"
+          />
         </div>
       </div>
     </div>
